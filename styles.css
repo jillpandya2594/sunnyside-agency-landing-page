@@ -312,4 +312,110 @@ justify-content: center;
 @media(max-width:375px)
 {
 	
+	header
+	{   display:block;
+		background-image:url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg");
+        
+        /*url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/icon-hamburger.svg");*/
+	}
+   .hamburger
+   {
+   	visibility: visible;
+   }
+	.nav
+	{
+		display:flex;
+		flex-direction: column;
+	}
+	
+	.wrapper
+	{
+		display:flex;
+		flex-direction: column;
+	}
+.hamburger
+{
+visibility: visible;
+cursor:pointer;
+transform: translate(170px,0px);
 }
+
+
+.item1
+{  
+	order:2;
+	margin-top: 2em;
+	margin-bottom: 2em;
+
+/*background-image:
+ url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/mobile/image-transform.jpg");*/
+
+}
+.item2
+{  background-image:
+ url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/mobile/image-transform.jpg");
+background-size: cover;
+order:1;
+
+
+}
+.item3
+{
+/*background-image: url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/mobile/image-stand-out.jpg");
+
+}*/
+
+}
+.item4
+{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.col+.col
+{
+margin-left: 0;
+
+}
+.section-5
+{
+
+background-image: 
+url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/mobile/image-graphic-design.jpg");
+background-size: cover;
+}
+.graphic-design-para
+{
+
+transform: translate(100px, 450px);
+}
+.section-6
+{
+
+background-image: 
+url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/mobile/image-photography.jpg");
+background-size: cover;
+}
+.photography-para
+{
+transform: translate(110px,460px);
+}
+.testimonials
+{
+	margin-right: 6em;
+}
+.testimonials-section
+{
+	flex-direction: column;
+	margin-right:4em;
+
+}
+.image-gallery
+{
+	display:grid;
+	grid-template-rows:1fr;
+	grid-template-columns:180px 180px;
+}
+}
+
+	
+
