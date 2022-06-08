@@ -19,10 +19,32 @@ cursor: pointer;
 img{
 	max-width: 100%;
 }
-.navbar{	
+#navbar{	
 	text-align: right;
 	list-style-type: none;
 }
+.main-menu
+{
+position:fixed;
+opacity:0;
+height:0;
+width:0;
+top:0;
+right:0;
+z-index:10;
+background-color:#fff;
+overflow-x: hidden;
+transition:all 0.3s ease-in-out;
+}
+
+.main-menu-items
+{
+position:relative;
+top:16vh;
+width:100%;
+text-align: center;
+}
+
 a:link{
 text-decoration: none;
 }
