@@ -1,0 +1,293 @@
+*,*::before,*::after{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+body{
+max-width:1400px;
+	
+}
+.logo{
+
+	margin-top:1em;
+	margin-left: 1em;
+}
+.logo:hover
+{
+cursor: pointer;
+}
+img{
+	max-width: 100%;
+}
+.navbar{	
+	text-align: right;
+	list-style-type: none;
+}
+a:link{
+text-decoration: none;
+}
+a:hover{
+	color:black;
+}
+.contact{
+	background-color: #fff;
+	border-radius: 20px;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+header{
+	 
+background-image:url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg");
+background-repeat: no-repeat;
+background-position: top -7rem left 0rem;
+background-size: cover;
+width:100%;
+height:100vh;
+
+}
+.nav-link
+{
+	color:#fff;
+}
+.nav-link+.nav-link
+{
+margin-left: 1em;
+}
+.contact
+{
+	color:black;
+	background-color: #fff;
+	margin-right: 1em;
+}
+.contact:hover
+{
+background-color:yellow;
+cursor:pointer;
+}
+ .hero--text{ 
+	text-align: center; 
+	font-size: 3em; 
+	margin-top: 1em;
+	color:#fff; 
+	} 
+	.arrow-down{
+transform: translate(660px,70px);
+ }
+.container{
+display: flex;
+
+margin-left:6em;
+margin-top: 0;
+
+}
+
+.intro-text
+{
+font-weight: bold;
+font-size: 1.5em;
+margin-bottom: 2em;
+width:30%;
+} 
+.intro-paragraph
+{
+margin-bottom: 2em;
+width:58%;	
+}
+
+.learn-more1:hover
+{
+text-decoration: underline;
+  text-decoration-color: rgb(235, 219, 52);
+    text-decoration-thickness: 5px; 
+}
+.egg-img
+{
+	margin-right:;
+}
+.section-1
+{
+
+}
+.learn-more2:hover
+{
+text-decoration: underline;
+  text-decoration-color: tomato;
+    text-decoration-thickness: 5px; 
+
+}
+.section-3
+{
+	/*margin-left: 22em;*/	
+    
+    height:auto;
+   /* width:5rem;*/
+
+    
+}
+.section-4{
+	background-image: url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100vw;
+    position:relative;	
+    background-size: 
+
+}
+.graphic-design
+{
+position:absolute;
+
+top: 60%;
+  left: 25%;
+  transform: translate(-30%, -30%);
+}
+.graphic-design-para
+{  
+ display:flex;
+	justify-content: center;
+	position: absolute;
+top: 70%;
+  left: 20%;
+  transform: translate(-30%, -30%);
+  width:40%;
+}
+.section-5{
+	background-image: url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100vw;
+    position: relative;
+
+}
+.photography
+{
+	position:absolute;
+
+top: 60%;
+  left: 25%;
+  transform: translate(-30%, -30%);
+}
+
+.photography-para
+{
+	display:flex;
+	justify-content: center;
+	position: absolute;
+    top: 70%;
+   left: 20%;
+   transform: translate(-30%, -30%);
+   width:40%;
+}
+.photography-para
+{
+	display:flex;
+	justify-content: center;
+	position: absolute;
+    top: 70%;
+   left: 20%;
+   transform: translate(-30%, -30%);
+
+.testimonials
+{   
+	margin-top:2em;
+	margin-left: 8em;
+	text-align: center;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	
+}
+.client-name
+{
+font-weight: bold;
+margin-top: 2em;
+
+}
+.testimonials-section
+{   text-align: center;
+	display: flex;
+	margin-left:6em;
+margin-right: 2em;
+margin-top: 0;
+
+
+}
+.col+.col{
+margin-left:6em;
+}
+.testimonial-image
+{
+width:3em;
+height:3em;
+border-radius:100%;
+margin-top:2em;
+margin-bottom: 2em;
+}
+.image-gallery
+{
+	display:flex;
+	
+margin-top: 2em;
+
+}
+
+.gallery-img
+{
+ width:24rem;
+ height:28rem;
+}
+
+.footer
+{   
+	background-color:rgb(147, 219, 193);
+}
+.bottom-logo
+{   
+	font-family: sans-serif;
+	font-weight:900;
+	color:rgb(71, 112, 97);
+	text-align: center;
+}
+
+.footer-links
+{
+display: flex;
+justify-content: center;
+margin-top: 3em;
+}
+
+.link:hover
+{
+color:#fff;
+cursor:pointer;
+}
+.link+.link
+{
+	margin-left: 1em;
+}
+.social-media-links
+{
+display: flex;
+justify-content: center;
+
+
+}
+
+
+.media-link
+{
+	margin-top: 3em;
+	margin-bottom: 3em;
+	
+}
+.media-link+.media-link
+{
+	margin-left: 2em;
+}
+
+
+@media(max-width:375px)
+{
+	
+}
