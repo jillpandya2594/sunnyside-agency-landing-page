@@ -19,45 +19,15 @@ cursor: pointer;
 img{
 	max-width: 100%;
 }
-#navbar{	
+.nav{	
 	text-align: right;
 	list-style-type: none;
 }
-.main-menu
-{
-position:fixed;
-opacity:0;
-height:0;
-width:0;
-top:0;
-right:0;
-z-index:10;
-background-color:#fff;
-overflow-x: hidden;
-transition:all 0.3s ease-in-out;
-}
-
-.main-menu-items
-{
-position:relative;
-top:16vh;
-width:100%;
-text-align: center;
-}
-
 a:link{
 text-decoration: none;
 }
 a:hover{
 	color:black;
-}
-.contact{
-	background-color: #fff;
-	border-radius: 20px;
-	padding-top: .5em;
-	padding-bottom: .5em;
-	padding-left: 1em;
-	padding-right: 1em;
 }
 header{
 	 
@@ -69,7 +39,24 @@ width:100%;
 height:100vh;
 
 }
-.nav-link
+.arrow-down{
+transform: translate(660px,70px);
+ }
+.contact{
+	background-color: #fff;
+	border-radius: 20px;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+ .hero--text{ 
+	text-align: center; 
+	font-size: 3em; 
+	margin-top: 1em;
+	color:#fff; 
+	} 
+	.nav-link
 {
 	color:#fff;
 }
@@ -83,30 +70,18 @@ margin-left: 1em;
 	background-color: #fff;
 	margin-right: 1em;
 }
+
+
 .contact:hover
 {
-background-color:yellow;
-cursor:pointer;
+	background-color: #66ccff;
+	color:#fff;
 }
- .hero--text{ 
-	text-align: center; 
-	font-size: 3em; 
-	margin-top: 1em;
-	color:#fff; 
-	} 
-	.arrow-down{
-transform: translate(660px,70px);
- }
-.container{
-display: flex;
 
-margin-left:6em;
-margin-top: 0;
-
-}
 
 .intro-text
 {
+
 font-weight: bold;
 font-size: 1.5em;
 margin-bottom: 2em;
@@ -124,92 +99,114 @@ text-decoration: underline;
   text-decoration-color: rgb(235, 219, 52);
     text-decoration-thickness: 5px; 
 }
-.egg-img
-{
-	margin-right:;
-}
-.section-1
-{
-
-}
 .learn-more2:hover
 {
 text-decoration: underline;
   text-decoration-color: tomato;
     text-decoration-thickness: 5px; 
+}
+.wrapper{
+display: grid;
+    grid-template-areas: 'section_one section_two'
+                          'section_three section_four'
+                          'section_five section_six';  
+grid-template-columns:2(1fr);
 
 }
+/*.hamburger
+	{
+	 display:none;
+	}*/
+.section-1
+{
+	grid-area: section_one;
+   margin-left:4em;
+
+}
+
+.section-2
+{   
+	grid-area: section_two;
+	background-image:url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/desktop/image-transform.jpg");
+	width:42rem;
+height:80vh;
+background-repeat: no-repeat;
+background-position: top 20rem left 0rem bottom 20rem right 30rem;
+background-size: cover;
+	
+
+
+	
+}
+
 .section-3
 {
-	/*margin-left: 22em;*/	
-    
-    height:auto;
-   /* width:5rem;*/
+	grid-area: section_three;
+background-image:url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/desktop/image-stand-out.jpg");
+	width:43rem;
+height:80vh;
+background-repeat: no-repeat;
+background-position: top 20rem left 30rem bottom 20rem right 0rem;
+background-size: cover;
+	
+	
 
-    
 }
-.section-4{
-	background-image: url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg");
-    background-repeat: no-repeat;
-    height:100vh;
-    width:100vw;
-    position:relative;	
-    background-size: 
 
+.section-4
+{
+	grid-area: section_four;
+	margin-left: 4em;
+
+}
+
+.section-5
+{
+	grid-area: section_five;
+	background-image: url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg");
+    width:100%;
+    height:100vh;
+background-repeat: no-repeat;
+position: relative;
 }
 .graphic-design
-{
-position:absolute;
-
-top: 60%;
-  left: 25%;
-  transform: translate(-30%, -30%);
+{   position: absolute;
+	top: 60%;
+  left: 45%;
+  transform: translate(-20%, -30%);
 }
 .graphic-design-para
-{  
- display:flex;
-	justify-content: center;
-	position: absolute;
-top: 70%;
-  left: 20%;
-  transform: translate(-30%, -30%);
-  width:40%;
+{
+ 
+  transform: translate(160px, 450px); 
+ text-align: center;
+ width:55%;
 }
-.section-5{
-	background-image: url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg");
-    background-repeat: no-repeat;
-    height:100vh;
-    width:100vw;
-    position: relative;
-
+.section-6
+{
+	grid-area: section_six;
+	background-image:url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg");
+width:100%;
+height:100vh;
+background-repeat: no-repeat;
+position: relative;
 }
 .photography
 {
 	position:absolute;
 
 top: 60%;
-  left: 25%;
+  left: 50%;
   transform: translate(-30%, -30%);
 }
-
 .photography-para
 {
-	display:flex;
-	justify-content: center;
-	position: absolute;
+    text-align: center;	
     top: 70%;
    left: 20%;
-   transform: translate(-30%, -30%);
-   width:40%;
+   transform: translate(160px,460px);
+   width:55%;
 }
-.photography-para
-{
-	display:flex;
-	justify-content: center;
-	position: absolute;
-    top: 70%;
-   left: 20%;
-   transform: translate(-30%, -30%);
 
 .testimonials
 {   
@@ -246,18 +243,12 @@ border-radius:100%;
 margin-top:2em;
 margin-bottom: 2em;
 }
+
 .image-gallery
 {
-	display:flex;
-	
-margin-top: 2em;
-
-}
-
-.gallery-img
-{
- width:24rem;
- height:28rem;
+	display:grid;
+	grid-template-rows:1fr;
+	grid-template-columns:338px 338px 338px 338px;
 }
 
 .footer
@@ -308,7 +299,6 @@ justify-content: center;
 	margin-left: 2em;
 }
 
-
 @media(max-width:375px)
 {
 	
@@ -318,9 +308,9 @@ justify-content: center;
         
         /*url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/icon-hamburger.svg");*/
 	}
-   .hamburger
+   .nav
    {
-   	visibility: visible;
+   	display: none;
    }
 	.nav
 	{
@@ -356,6 +346,7 @@ transform: translate(170px,0px);
  url("/home/kush/Downloads/sunnyside-agency-landing-page-main/images/mobile/image-transform.jpg");
 background-size: cover;
 order:1;
+
 
 
 }
@@ -416,6 +407,3 @@ transform: translate(110px,460px);
 	grid-template-columns:180px 180px;
 }
 }
-
-	
-
