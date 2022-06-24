@@ -352,7 +352,7 @@ order:1;
 }
 .item3
 {
-/*background-image: url("../images/mobile/image-stand-out.jpg");
+/*background-image: url("images/mobile/image-stand-out.jpg");
 
 }*/
 
@@ -371,7 +371,7 @@ margin-left: 0;
 {
 
 background-image: 
-url("../images/mobile/image-graphic-design.jpg");
+url("images/mobile/image-graphic-design.jpg");
 background-size: cover;
 }
 .graphic-design-para
@@ -383,7 +383,7 @@ transform: translate(100px, 450px);
 {
 
 background-image: 
-url("../images/mobile/image-photography.jpg");
+url("images/mobile/image-photography.jpg");
 background-size: cover;
 }
 .photography-para
