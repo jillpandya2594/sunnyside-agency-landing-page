@@ -304,7 +304,7 @@ justify-content: center;
 	
 	header
 	{   display:block;
-		background-image:url("../images/mobile/image-header.jpg");
+		background-image:url("images/mobile/image-header.jpg");
         
         /*url("./images/icon-hamburger.svg");*/
 	}
@@ -338,12 +338,12 @@ transform: translate(170px,0px);
 	margin-bottom: 2em;
 
 /*background-image:
- url("../images/mobile/image-transform.jpg");*/
+ url("images/mobile/image-transform.jpg");*/
 
 }
 .item2
 {  background-image:
- url("../images/mobile/image-transform.jpg");
+ url("images/mobile/image-transform.jpg");
 background-size: cover;
 order:1;
 
