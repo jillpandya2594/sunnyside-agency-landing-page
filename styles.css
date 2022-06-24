@@ -31,7 +31,7 @@ a:hover{
 }
 header{
 	 
-background-image:url(../images/desktop/image-header.jpg");
+background-image:url(images/desktop/image-header.jpg");
 background-repeat: no-repeat;
 background-position: top -7rem left 0rem;
 background-size: cover;
@@ -127,7 +127,7 @@ grid-template-columns:2(1fr);
 .section-2
 {   
 	grid-area: section_two;
-	background-image:url("../images/desktop/image-transform.jpg");
+	background-image:url("images/desktop/image-transform.jpg");
 	width:42rem;
 height:80vh;
 background-repeat: no-repeat;
@@ -142,7 +142,7 @@ background-size: cover;
 .section-3
 {
 	grid-area: section_three;
-background-image:url("../images/desktop/image-stand-out.jpg");
+background-image:url("images/desktop/image-stand-out.jpg");
 	width:43rem;
 height:80vh;
 background-repeat: no-repeat;
