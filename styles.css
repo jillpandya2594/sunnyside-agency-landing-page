@@ -341,9 +341,7 @@ display: none;
    	color: black;
    	background-color: #FDDA0D;
    }
-		.nav--visible{
-display: none;
-	}
+		
 
 	.wrapper
 	{
@@ -367,7 +365,9 @@ transform: translate(170px,0px);
 	 	background-color: #fff;
         
 	}
-
+.nav--visible{
+display: none;
+	}
 .item1
 {  
 	order:2;
